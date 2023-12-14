@@ -59,7 +59,6 @@ const App=()=> {
   function handleRestart(){
     setGameTurns([])
   }
-debugger
   return (
     <main>
       <div id="game-container">

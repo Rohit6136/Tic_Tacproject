@@ -1,4 +1,4 @@
-export const GameBoard = ({ onSelectSquare, board }) => (
+const GameBoard = ({ onSelectSquare, board }) => (
   <ol id="game-board">
     {board.map((row, rowind) => (
       <li key={rowind}>
@@ -19,3 +19,4 @@ export const GameBoard = ({ onSelectSquare, board }) => (
   </ol>
 );
 
+export default GameBoard;
